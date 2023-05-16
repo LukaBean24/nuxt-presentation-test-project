@@ -7,6 +7,7 @@
 <script setup>
 definePageMeta({
   layout: "guest",
+  middleware: "auth",
 });
 useHead({
   title: "EduHub || Courses",
