@@ -40,6 +40,7 @@
 </template>
 
 <script setup>
+const user = useSupabaseUser();
 definePageMeta({
   layout: "guest",
 });
